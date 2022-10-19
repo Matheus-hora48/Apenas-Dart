@@ -37,3 +37,14 @@ double regraDeTres({
   }
   return value;
 }
+
+List validadorDeCard() {
+  List numerosList = [];
+  String numerosTs = '4916641859369080';
+  for (int i = 0; i < numerosTs.length; i++) {
+    var char = numerosTs[i];
+    numerosList.add(char);
+  }
+
+  return numerosList;
+}
