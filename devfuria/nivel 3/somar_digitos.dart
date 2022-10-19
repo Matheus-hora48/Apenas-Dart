@@ -1,13 +1,11 @@
 void main() {
-  var n = 123;
-  var s;
+  var num = 256;
+  var soma = 0;
 
-  while (n!=0) {
-    s+= n%10;
-    n / 10;
+  while (num > 0) {
+    int resto = num % 10;
+    num ~/= 10;
+    soma += resto;
   }
-
-  print(s);
-
-  
+  print(soma);
 }
