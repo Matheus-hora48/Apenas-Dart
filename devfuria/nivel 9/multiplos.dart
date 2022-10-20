@@ -4,11 +4,12 @@ void main(List<String> args) {
 
   for (var i = 0; i < 1000; i++) {
     if (i % 3 == 0) {
-      tres++;
+      tres += i;
     } else if(i % 5 == 0){
-      cinco++;
+      cinco += i;
     }
   }
   print(tres);
   print(cinco);
+  print(cinco + tres);
 }
